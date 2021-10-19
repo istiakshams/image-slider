@@ -1,0 +1,1 @@
+## Awesome Vanilla Javascript Image Slider! 
