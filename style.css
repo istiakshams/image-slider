@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+img {
+    width: 30vw;
+    height: 80vh;
+    object-fit: cover;
+}
+
+.container {
+    position: relative;
+    width: 30vw;
+    height: 80vh;    
+}
+
+.img-container-after, .img-container-before {
+    position: absolute;
+    width: 30vw;
+    height: 80vh; 
+}
+
+.img-container-before {
+    width: 15vw;
+    overflow: hidden;
+}
+
+.slider {
+    width: 1.5rem;
+    background: #fff;
+    height: 100%;
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    pointer-events: none;
+}
